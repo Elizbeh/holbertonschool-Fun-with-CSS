@@ -1,0 +1,36 @@
+ul {
+  height: auto;
+}
+ul, li {
+  height: 74vh;
+  display: inline;
+  display: flex; 
+  align-items: center;
+}
+.icon {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+}
+.i-html, .i-css, .i-js {
+  background-image: url("/d416199ca6ecdbd0f8a3.png");
+  background-repeat: no-repeat;
+  width: 90%;
+}
+i.css {
+  background-position-x: center;
+}
+.i-js {
+  background-position-x: right;
+}
+li {
+  flex-direction: column;
+  background-color: #f7f7f7df;
+  font-size: 30px;
+  border: 1.5px solid;
+  border-radius: 30px;
+  font-weight: 600;
+  margin: 0px 3%;
+  padding-top: 15px;
+  min-width: 320px;
+}
