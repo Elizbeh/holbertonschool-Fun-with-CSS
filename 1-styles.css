@@ -1,0 +1,18 @@
+body {
+  background-color: white;
+  width: 100%;
+  padding: auto;
+}
+h2 {
+  font-weight: 600;
+  text-shadow: 1px 1px grey;
+}
+a {
+  color:rgb(185, 22, 109);
+  text-decoration: none;
+}
+a:hover {
+cursor: pointer;
+text-decoration: underline;
+transition: 2.5ms:
+}
